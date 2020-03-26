@@ -9,7 +9,6 @@
 	sound = "acf_engines/i4_petrolmedium2.wav",
 	category = "Real",
 	fuel = "Petrol",
-	enginetype = "GenericPetrol",
 	requiresfuel = true,
 	weight = 160,
 	torque = 297,
@@ -28,7 +27,6 @@ ACF_DefineEngine( "3.0-I6T", {
 	category = "Real",
 	fuel = "Petrol",
 	enginetype = "GenericPetrol",
-	requiresfuel = true,
 	weight = 200,
 	torque = 408,
 	flywheelmass = 0.11,
@@ -46,7 +44,6 @@ ACF_DefineEngine( "3.5-V6", {
 	category = "Real",
 	fuel = "Petrol",
 	enginetype = "GenericPetrol",
-	requiresfuel = true,
 	weight = 163,
 	torque = 320,
 	flywheelmass = 0.25,
@@ -64,12 +61,11 @@ ACF_DefineEngine( "2.2L-EJ", {
 	category = "Real",
 	fuel = "Petrol",
 	enginetype = "GenericPetrol",
-	requiresfuel = true,
-	weight = 180,
+	weight = 85,
 	torque = 363,
 	flywheelmass = 0.1,
 	idlerpm = 700,
 	peakminrpm = 3200,
 	peakmaxrpm = 6000,
-	limitrpm = 6100
+	limitrpm = 6500
 } )
