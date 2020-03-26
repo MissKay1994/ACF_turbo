@@ -10,7 +10,7 @@
 	category = "Real",
 	fuel = "Petrol",
 	enginetype = "GenericPetrol",
-	requiresfuel = true
+	requiresfuel = true,
 	weight = 160,
 	torque = 297,
 	flywheelmass = 0.1,
