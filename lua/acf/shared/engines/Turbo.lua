@@ -4,7 +4,7 @@
 
 ACF_DefineEngine( "2.2L-B4", {
 	name = "2.2L Flat 4 Petrol",
-	desc = "A mid range flat 4 often found in rally cars",
+	desc = "Headgasket and vape jokes",
 	model = "models/engines/b4med.mdl",
 	sound = "acf_engines/b4_petrolmedium.wav",
 	category = "Turbocharged",
