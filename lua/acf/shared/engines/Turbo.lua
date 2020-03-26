@@ -20,3 +20,21 @@ ACF_DefineEngine( "2.2L-B4", {
 	limitrpm = 6500
 } )
 
+ACF_DefineEngine( "3.0L-B6T", {
+	name = "3.0L Flat 6 Petrol",
+	desc = "A flat 6 from a German sports car",
+	model = "models/engines/b6med.mdl",
+	sound = "acf_engines/b6_petrolsmall.wav",
+	category = "Turbocharged",
+	fuel = "Petrol",
+	enginetype = "GenericPetrol",
+	requiresfuel = true,
+	weight = 220,
+	torque = 200,
+	flywheelmass = 0.1,
+	idlerpm = 600,
+	peakminrpm = 4000,
+	peakmaxrpm = 7000,
+	limitrpm = 7500
+} )
+
