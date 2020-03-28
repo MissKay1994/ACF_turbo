@@ -17,6 +17,23 @@ ACF_DefineEngine( "1.5-B4", {
 	limitrpm = 6500
 } )
 
+ACF_DefineEngine( "1.8L-B4", {
+	name = "1.8L Flat 4 Petrol",
+	desc = "Small economic flat 4 found in sedans",
+	model = "models/engines/b4small.mdl",
+	sound = "acf_engines/b4_petrolsmall.wav",
+	category = "Nonturbo",
+	fuel = "Petrol",
+	enginetype = "GenericPetrol",
+	weight = 74,
+	torque = 132,
+	flywheelmass = 0.1,
+	idlerpm = 850,
+	peakminrpm = 3200,
+	peakmaxrpm = 5600,
+	limitrpm = 6200
+} )
+
 ACF_DefineEngine( "2.0-B4", {
 	name = "2.0L Flat 4 Petrol",
 	desc = "The engine from your moms SUV",
