@@ -22,7 +22,7 @@ ACF_DefineEngine( "1.8L-B4", {
 	desc = "Small economic flat 4 found in sedans",
 	model = "models/engines/b4small.mdl",
 	sound = "acf_engines/b4_petrolsmall.wav",
-	category = "Nonturbo",
+	category = "NewB4",
 	fuel = "Petrol",
 	enginetype = "GenericPetrol",
 	weight = 74,
