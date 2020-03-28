@@ -41,7 +41,7 @@ ACF_DefineEngine( "2.5-B4", {
 	sound = "acf_engines/b4_petrolmedium.wav",
 	category = "NewB4",
 	fuel = "Petrol",
-	enginetype = "Petrol",
+	enginetype = "GenericPetrol",
 	weight = 135,
 	torque = 92,
 	flywheelmass = 0.4,
