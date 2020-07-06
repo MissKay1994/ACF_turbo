@@ -38,3 +38,20 @@ ACF_DefineEngine( "3.0L-B6T", {
 	limitrpm = 7500
 } )
 
+ACF_DefineEngine( "2.0-I4T", {
+	name = "2.0L I4 Petrol",
+	desc = "A straight 4 right out of an 80's car",
+	model = "models/engines/inline4s.mdl",
+	sound = "acf_engines/i4_special.wav",
+	category = "Turbocharged",
+	fuel = "Petrol",
+	enginetype = "GenericPetrol",
+	requiresfuel = true,
+	weight = 120,
+	torque = 246,
+	flywheelmass = 0.1,
+	idlerpm = 900,
+	peakminrpm = 3500,
+	peakmaxrpm = 6500,
+	limitrpm = 7000
+} )
