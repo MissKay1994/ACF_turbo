@@ -55,3 +55,21 @@ ACF_DefineEngine( "2.0-I4T", {
 	peakmaxrpm = 6500,
 	limitrpm = 7000
 } )
+
+ACF_DefineEngine( "3.0-I6T", {
+	name = "3.0L I6 Petrol",
+	desc = "They claim it can make 1600 HP",
+	model = "models/engines/inline6s.mdl",
+	sound = "acf_engines/l6_petrolsmall2.wav",
+	category = "Turbocharged",
+	fuel = "Petrol",
+	enginetype = "GenericPetrol",
+	requiresfuel = true,
+	weight = 200,
+	torque = 408,
+	flywheelmass = 0.11,
+	idlerpm = 650,
+	peakminrpm = 4000,
+	peakmaxrpm = 5600,
+	limitrpm = 6600
+} )
