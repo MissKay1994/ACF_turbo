@@ -66,7 +66,7 @@ ACF_DefineEngine( "3.0-I6T", {
 	enginetype = "GenericPetrol",
 	requiresfuel = true,
 	weight = 200,
-	torque = 408,
+	torque = 281,
 	flywheelmass = 0.11,
 	idlerpm = 650,
 	peakminrpm = 4000,
